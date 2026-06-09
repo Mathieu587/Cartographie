@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_Vueinterventionsinondations_30052026debordement_extraction_donnees_2 = function(feature, resolution){
+var style_Inondations30052026_2 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
