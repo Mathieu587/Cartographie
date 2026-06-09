@@ -57,15 +57,6 @@ case '2026':
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
-                    break;
-default:
-                    return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(204,102,54,1.0)'})}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
                     break;}};
 
 var style_VueinterventionsInondationsBrunehaut_1 = function(feature, resolution){
